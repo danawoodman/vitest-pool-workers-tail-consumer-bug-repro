@@ -1,0 +1,8 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "tail-consumer-bug",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-05-08",
+	"observability": { "enabled": true },
+	"tail_consumers": [{ "service": "tail-consumer-bug-tail" }]
+}
